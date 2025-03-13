@@ -1,0 +1,67 @@
+:root{
+    --greenColor: #17Bd3E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    font-size: 3rem;
+}
+
+.tarolo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.focim{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.zold{
+    color: var(--greenColor);
+}
+
+.login{
+    background-color: var(--greenColor);
+
+}
+
+.login, .reg{
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.login button{
+    color: white;
+    background-color: var(--greenColor);
+}
+
+.reg button{
+    color: var(--greenColor);
+    background-color: white;
+}
+
+.tarolo button{
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
