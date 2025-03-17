@@ -47,7 +47,12 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: ease 0.5s;
     
+}
+
+.login:hover, .reg:hover{
+    transform: scale(1.05);
 }
 
 .login button{
