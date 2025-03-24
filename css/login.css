@@ -52,7 +52,7 @@ input{
     outline: none;
 }
 
-.reg{
+.login{
     background-color: var(--greenColor);
     width: 500px;
     border-radius: 20px;
@@ -65,11 +65,11 @@ input{
 }
 
 
-.reg:hover{
+.login:hover{
     transform: scale(1.05);
 }
 
-.reg button{
+.login button{
     font-size: 1.5rem;
     color: white;
     background-color: var(--greenColor);
@@ -79,7 +79,7 @@ input{
 
 
 @media screen and (max-width:500px) {
-    .reg,.input{
+    .login,.input{
         width: 340px;
     }
 }
