@@ -91,7 +91,25 @@ color: white;
     display: flex;
 }
 
+@media  screen and (max-width: 768px){
+    .hamburger-menu{
+        display: flex;
+    }
 
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        font-size: 1.5rem;
+        display: none;
+    }
+
+}
 
 
 
