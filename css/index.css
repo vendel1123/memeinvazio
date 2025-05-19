@@ -1,46 +1,46 @@
-:root{
-    --greenColor: #17Bd3E;
+:root {
+    --greenColor: #17BD3E;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     height: 100vh;
     font-size: 3rem;
 }
 
-.tarolo{
+.tarolo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
-.focim{
+.focim {
     text-transform: uppercase;
+    text-align: center;
     font-weight: 500;
     user-select: none;
 }
 
-.zold{
+.focim_zold {
     color: var(--greenColor);
 }
 
-.login{
+.login {
     background-color: var(--greenColor);
-
 }
 
-.login, .reg{
+.login, .reg {
     border-radius: 20px;
     padding: 15px;
     width: 500px;
@@ -49,32 +49,30 @@ body{
     align-items: center;
     cursor: pointer;
     transition: ease 0.5s;
-    
 }
 
-.login:hover, .reg:hover{
-    transform: scale(1.05);
+.login:hover, .reg:hover {
+    transform: scale(1.01);
 }
 
-.login button{
+.login button {
     color: white;
-    background-color: var(--greenColor);
+    background-color: inherit;
 }
 
-.reg button{
+.reg button {
     color: var(--greenColor);
     background-color: white;
 }
 
-.tarolo button{
-    border: none;
+.login button, .reg button {
     font-size: 1.5rem;
-    cursor: pointer;
+    border: none;
+    cursor: inherit;
 }
 
 @media screen and (max-width: 450px) {
-    .login, .reg{
+    .login, .reg {
         width: 340px;
-    }    
+    }
 }
-

@@ -1,1 +1,1 @@
-meminvazio content ccuccaas
+memeinvázió frontend kódjának fejlesztése
